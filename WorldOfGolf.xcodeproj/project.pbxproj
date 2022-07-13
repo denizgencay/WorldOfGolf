@@ -16,6 +16,9 @@
 		33E58B4C287F14ED007EEEE7 /* WorldOfGolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B4B287F14ED007EEEE7 /* WorldOfGolfTests.swift */; };
 		33E58B56287F14ED007EEEE7 /* WorldOfGolfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B55287F14ED007EEEE7 /* WorldOfGolfUITests.swift */; };
 		33E58B58287F14ED007EEEE7 /* WorldOfGolfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B57287F14ED007EEEE7 /* WorldOfGolfUITestsLaunchTests.swift */; };
+		33E58B6B287F2654007EEEE7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B6A287F2654007EEEE7 /* MenuViewController.swift */; };
+		33E58B6D287F27F7007EEEE7 /* MenuFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B6C287F27F7007EEEE7 /* MenuFirstTableViewCell.swift */; };
+		33E58B6F287F281A007EEEE7 /* MenuSecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B6E287F281A007EEEE7 /* MenuSecondTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		33E58B51287F14ED007EEEE7 /* WorldOfGolfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldOfGolfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E58B55287F14ED007EEEE7 /* WorldOfGolfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfGolfUITests.swift; sourceTree = "<group>"; };
 		33E58B57287F14ED007EEEE7 /* WorldOfGolfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfGolfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33E58B6A287F2654007EEEE7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		33E58B6C287F27F7007EEEE7 /* MenuFirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFirstTableViewCell.swift; sourceTree = "<group>"; };
+		33E58B6E287F281A007EEEE7 /* MenuSecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSecondTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,7 @@
 		33E58B67287F17C4007EEEE7 /* Ui */ = {
 			isa = PBXGroup;
 			children = (
+				33E58B69287F2637007EEEE7 /* Menu */,
 			);
 			path = Ui;
 			sourceTree = "<group>";
@@ -157,6 +164,16 @@
 			children = (
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		33E58B69287F2637007EEEE7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				33E58B6A287F2654007EEEE7 /* MenuViewController.swift */,
+				33E58B6C287F27F7007EEEE7 /* MenuFirstTableViewCell.swift */,
+				33E58B6E287F281A007EEEE7 /* MenuSecondTableViewCell.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +309,10 @@
 			files = (
 				33E58B39287F14EC007EEEE7 /* ViewController.swift in Sources */,
 				33E58B35287F14EC007EEEE7 /* AppDelegate.swift in Sources */,
+				33E58B6D287F27F7007EEEE7 /* MenuFirstTableViewCell.swift in Sources */,
 				33E58B37287F14EC007EEEE7 /* SceneDelegate.swift in Sources */,
+				33E58B6F287F281A007EEEE7 /* MenuSecondTableViewCell.swift in Sources */,
+				33E58B6B287F2654007EEEE7 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,11 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var backgroundImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        //git
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        backgroundImage.isUserInteractionEnabled = true
+        backgroundImage.addGestureRecognizer(tapGestureRecognizer)
     }
-
-
+    
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
+    {
+        self.performSegue(withIdentifier: "showMainScreen", sender: self)
+    }
 }
 
