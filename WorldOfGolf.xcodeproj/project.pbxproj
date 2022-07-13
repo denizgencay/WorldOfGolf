@@ -99,6 +99,10 @@
 		33E58B33287F14EC007EEEE7 /* WorldOfGolf */ = {
 			isa = PBXGroup;
 			children = (
+				33E58B68287F17D4007EEEE7 /* Util */,
+				33E58B67287F17C4007EEEE7 /* Ui */,
+				33E58B66287F17BD007EEEE7 /* Domain */,
+				33E58B65287F17B8007EEEE7 /* Data */,
 				33E58B34287F14EC007EEEE7 /* AppDelegate.swift */,
 				33E58B36287F14EC007EEEE7 /* SceneDelegate.swift */,
 				33E58B38287F14EC007EEEE7 /* ViewController.swift */,
@@ -125,6 +129,34 @@
 				33E58B57287F14ED007EEEE7 /* WorldOfGolfUITestsLaunchTests.swift */,
 			);
 			path = WorldOfGolfUITests;
+			sourceTree = "<group>";
+		};
+		33E58B65287F17B8007EEEE7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		33E58B66287F17BD007EEEE7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		33E58B67287F17C4007EEEE7 /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		33E58B68287F17D4007EEEE7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
