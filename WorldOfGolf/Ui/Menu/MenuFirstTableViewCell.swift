@@ -19,8 +19,4 @@ class MenuFirstTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
-    @IBAction func buttonClick(_ sender: Any) {
-        
-    }
-    
 }

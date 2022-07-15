@@ -15,6 +15,15 @@ class MenuViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
     }
+    
+    @objc func buttonTapped(_ sender: UIButton) {
+        switch sender.tag{
+        case 1:
+            print("")
+        default:
+            print("Error")
+        }
+    }
 
 }
 
@@ -31,8 +40,12 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource{
             return MenuSecondTableViewCell()
         }
         cellForReturn.button.setTitle(title, for: .normal)
+        cellForReturn.button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
+        cellForReturn.button.tag = indexPath.row
         return cellForReturn
     }
+    
+   
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.row{
