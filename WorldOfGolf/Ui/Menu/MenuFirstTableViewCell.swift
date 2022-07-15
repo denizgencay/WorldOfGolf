@@ -9,6 +9,7 @@ import UIKit
 
 class MenuFirstTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var button: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -16,8 +17,10 @@ class MenuFirstTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
-
+    
+    @IBAction func buttonClick(_ sender: Any) {
+        
+    }
+    
 }

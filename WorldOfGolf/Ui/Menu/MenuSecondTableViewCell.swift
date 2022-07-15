@@ -9,6 +9,7 @@ import UIKit
 
 class MenuSecondTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var button: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,5 +20,7 @@ class MenuSecondTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    @IBAction func buttonClick(_ sender: Any) {
+    }
+    
 }
