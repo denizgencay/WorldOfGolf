@@ -25,6 +25,8 @@
 		33F98F042881A1F0004EEB37 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F98F032881A1F0004EEB37 /* RulesViewController.swift */; };
 		33F98F062881A1F8004EEB37 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F98F052881A1F8004EEB37 /* DetailsViewController.swift */; };
 		33F98F082881A207004EEB37 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F98F072881A207004EEB37 /* MainViewController.swift */; };
+		4EC906012882E0190073AACA /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC906002882E0190073AACA /* UIImage+.swift */; };
+		4EC906032882E2980073AACA /* UI+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC906022882E2980073AACA /* UI+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		33F98F032881A1F0004EEB37 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
 		33F98F052881A1F8004EEB37 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		33F98F072881A207004EEB37 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4EC906002882E0190073AACA /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		4EC906022882E2980073AACA /* UI+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +121,7 @@
 		33E58B33287F14EC007EEEE7 /* WorldOfGolf */ = {
 			isa = PBXGroup;
 			children = (
-				33E58B68287F17D4007EEEE7 /* Util */,
+				4EC905FF2882E00D0073AACA /* Util */,
 				33E58B67287F17C4007EEEE7 /* Ui */,
 				33E58B66287F17BD007EEEE7 /* Domain */,
 				33E58B65287F17B8007EEEE7 /* Data */,
@@ -177,13 +181,6 @@
 			path = Ui;
 			sourceTree = "<group>";
 		};
-		33E58B68287F17D4007EEEE7 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
 		33E58B69287F2637007EEEE7 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +237,15 @@
 				33F98EFB2881A19A004EEB37 /* AthletesViewController.swift */,
 			);
 			path = Athletes;
+			sourceTree = "<group>";
+		};
+		4EC905FF2882E00D0073AACA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4EC906002882E0190073AACA /* UIImage+.swift */,
+				4EC906022882E2980073AACA /* UI+.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,10 +384,12 @@
 				33F98F022881A1E6004EEB37 /* InventoryViewController.swift in Sources */,
 				33F98F082881A207004EEB37 /* MainViewController.swift in Sources */,
 				33F98F062881A1F8004EEB37 /* DetailsViewController.swift in Sources */,
+				4EC906032882E2980073AACA /* UI+.swift in Sources */,
 				33E58B35287F14EC007EEEE7 /* AppDelegate.swift in Sources */,
 				33E58B6D287F27F7007EEEE7 /* MenuFirstTableViewCell.swift in Sources */,
 				33F98F002881A1C9004EEB37 /* ChampionshipsViewController.swift in Sources */,
 				33E58B37287F14EC007EEEE7 /* SceneDelegate.swift in Sources */,
+				4EC906012882E0190073AACA /* UIImage+.swift in Sources */,
 				33E58B6F287F281A007EEEE7 /* MenuSecondTableViewCell.swift in Sources */,
 				33F98EFD2881A19A004EEB37 /* AthletesViewController.swift in Sources */,
 				33E58B6B287F2654007EEEE7 /* MenuViewController.swift in Sources */,
@@ -561,7 +569,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6D82VTY2F2;
+				DEVELOPMENT_TEAM = FX48YA4D8H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WorldOfGolf/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -589,7 +597,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6D82VTY2F2;
+				DEVELOPMENT_TEAM = FX48YA4D8H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WorldOfGolf/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
