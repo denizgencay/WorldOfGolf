@@ -1,17 +1,17 @@
 //
-//  DetailsViewController.swift
+//  InteractiveViewController.swift
 //  WorldOfGolf
 //
-//  Created by Deniz Eren Gençay on 15.07.2022.
+//  Created by Cem Sertkaya on 16.07.2022.
 //
 
 import UIKit
 
-class DetailsViewController: UIViewController {
+class InteractiveViewController: UIViewController {
     let uiGlobal = UIGlobal.shared
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "Details")
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "Interactive")
         // Do any additional setup after loading the view.
     }
     

@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="-787" y="158"/>
         </scene>
-        <!--View Controller-->
+        <!--Interactive View Controller-->
         <scene sceneID="jH9-G6-4Ck">
             <objects>
-                <viewController id="KoI-tJ-sNp" sceneMemberID="viewController">
+                <viewController id="KoI-tJ-sNp" customClass="InteractiveViewController" customModule="WorldOfGolf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nBa-Tk-5vo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

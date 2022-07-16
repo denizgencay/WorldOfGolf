@@ -8,6 +8,23 @@
 import Foundation
 import UIKit
 
+
+class UIGlobal
+{
+ 
+  static let shared = UIGlobal()
+  private init(){}
+    
+    
+  func createBackButtonItem(title : String) -> UIBarButtonItem
+  {
+        let backButton = UIBarButtonItem()
+        backButton.title = title
+        backButton.tintColor = UIColor.white
+        return backButton
+  }
+}
+
 @IBDesignable extension UIButton {
 
     @IBInspectable var borderWidth: CGFloat {
@@ -38,4 +55,9 @@ import UIKit
             return UIColor(cgColor: color)
         }
     }
+}
+
+class UI
+{
+    
 }

@@ -8,10 +8,10 @@
 import UIKit
 
 class RulesViewController: UIViewController {
-
+    let uiGlobal = UIGlobal.shared
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "Rules")
         // Do any additional setup after loading the view.
     }
     

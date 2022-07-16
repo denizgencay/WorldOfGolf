@@ -9,9 +9,10 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    let uiGlobal = UIGlobal.shared
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "Main")
         // Do any additional setup after loading the view.
     }
     
