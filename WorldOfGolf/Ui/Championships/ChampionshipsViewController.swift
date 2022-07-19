@@ -11,7 +11,7 @@ class ChampionshipsViewController: UIViewController {
     let uiGlobal = UIGlobal.shared
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "World Championships")
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "world_championships".localized())
         // Do any additional setup after loading the view.
     }
     

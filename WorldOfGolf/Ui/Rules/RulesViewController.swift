@@ -34,7 +34,7 @@ class RulesViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "Rules")
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "rules".localized())
         tableView.delegate = self
         tableView.dataSource = self
        // tableView.rowHeight = UITableView.automaticDimension
@@ -42,10 +42,18 @@ class RulesViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
         
         sections = [
-            Section(title: "Section 1", options: ["kahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfhkahsdkflahlskdjfhkasdhfakjsdfh"]),
-            Section(title: "Section 2", options: [1, 2, 3].compactMap({return "Cell \($0)"})),
-            Section(title: "Section 3", options: [1, 2, 3].compactMap({return "Cell \($0)"})),
-            Section(title: "Section 4", options: [1, 2, 3].compactMap({return "Cell \($0)"}))
+            Section(title: "beat".localized(), options: ["first_rule_screen_paragraph".localized()]),
+            Section(title: "ball_game".localized(), options: ["second_rule_screen_paragraph".localized()]),
+            Section(title: "deflecting_or_stopping_a_moving_ball".localized(), options: ["third_rule_screen_paragraph".localized()]),
+            Section(title: "raising_throwing_in_and_setting_the_ball".localized(), options: ["fourth_rule_screen_paragraph".localized()]),
+            Section(title: "raising_throwing_in_and_setting_the_ball".localized(), options: ["fifth_rule_screen_paragraph".localized()]),
+            Section(title: "free_interference".localized(), options: ["sixth_rule_screen_paragraph".localized()]),
+            Section(title: "movable_obstacles".localized(), options: ["seventh_rule_screen_paragraph".localized()]),
+            Section(title: "immovable_obstacles_and_abnormal_condition_of_the_field_area".localized(), options: ["eighth_rule_screen_paragraph".localized()]),
+            Section(title: "water_barriers".localized(), options: ["nineth_rule_screen_paragraph".localized()]),
+            Section(title: "ball_is_lost_or_out_of_bounds_temporary_ball".localized(), options: ["tenth_rule_screen_paragraph".localized()]),
+            Section(title: "unplayable_ball".localized(), options: ["eleventh_rule_screen_paragraph".localized()]),
+            Section(title: "etiquette".localized(), options: ["twelfth_rule_screen_paragraph".localized()]),
         ]
         // Do any additional setup after loading the view.
     }

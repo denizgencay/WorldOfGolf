@@ -16,7 +16,7 @@ class MainViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "Main")
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "main".localized())
         tableView.delegate = self
         tableView.dataSource = self
         // Do any additional setup after loading the view.
@@ -52,7 +52,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource
                     assertionFailure("Cannot dequeue reusable cell \(ImageCell.self) with reuseIdentifier: imageCell")
                     return UITableViewCell()
                 }
-               
+            cell.textView.text = "main_screen_text".localized()
                 return cell
             default:
                 guard let cell = tableView.dequeueReusableCell(withIdentifier: "expandableCell",for: indexPath) as? ExpandableTableViewCell
@@ -66,5 +66,17 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource
                 
             
         }
+    }
+}
+
+extension String{
+    func localized() -> String{
+        return NSLocalizedString(
+            self,
+            tableName: "Localizable",
+            bundle: .main,
+            value: self,
+            comment: self
+        )
     }
 }

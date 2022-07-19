@@ -366,40 +366,14 @@
                     <view key="view" contentMode="scaleToFill" id="kIc-7c-kAF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAr-uc-lEf">
-                                <rect key="frame" x="20" y="88" width="374" height="774"/>
-                                <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" notEnabled="YES"/>
-                                </accessibility>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="gaS-ua-tfy"/>
                         <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="aAr-uc-lEf" firstAttribute="trailing" secondItem="kIc-7c-kAF" secondAttribute="trailingMargin" id="1lF-jZ-aKo"/>
-                            <constraint firstItem="aAr-uc-lEf" firstAttribute="leading" secondItem="kIc-7c-kAF" secondAttribute="leadingMargin" id="Dyy-GD-lKQ"/>
-                            <constraint firstItem="aAr-uc-lEf" firstAttribute="top" secondItem="gaS-ua-tfy" secondAttribute="top" id="ozk-xV-cgY"/>
-                            <constraint firstItem="aAr-uc-lEf" firstAttribute="bottom" secondItem="gaS-ua-tfy" secondAttribute="bottom" id="w1K-k0-J9a"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9EJ-oI-gKi"/>
-                    <connections>
-                        <outlet property="textView" destination="aAr-uc-lEf" id="q5L-sb-EXc"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pdN-LS-vGa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3182.608695652174" y="1380.8035714285713"/>
+            <point key="canvasLocation" x="3183" y="1381"/>
         </scene>
         <!--Inventory View Controller-->
         <scene sceneID="xZc-tr-2gp">
@@ -464,6 +438,7 @@
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsk-EV-py0">
                                                     <rect key="frame" x="20" y="380" width="374" height="327"/>
                                                     <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.u09rhrtıogewtrogerto8gue</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

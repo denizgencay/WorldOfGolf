@@ -1,0 +1,112 @@
+//Main screen texts;
+"interactive" = "INTERACTIVE";
+"main" = "MAIN";
+"rules" = "RULES";
+"details" = "DETAILS";
+"inventory" = "INVENTORY";
+"world_championships" = "WORLD CHAMPIONSHIPS";
+"famous_athletes" = "FAMOUS ATHLETES";
+
+//Rules screen texts
+"beat" = "Beat";
+"ball_game" = "Ball game";
+"deflecting_or_stopping_a_moving_ball" = "Deflecting or stopping a moving ball";
+"raising_throwing_in_and_setting_the_ball" = "Raising, throwing in and setting the ball";
+"a_ball_that_helps_or_hinders_play" = "A ball that helps or hinders play";
+"free_interference" = "Free interference";
+"movable_obstacles" = "Movable obstacles";
+"immovable_obstacles_and_abnormal_condition_of_the_field_area" = "Immovable obstacles and abnormal condition_of_the_field_area";
+"water_barriers" = "Water barriers";
+"ball_is_lost_or_out_of_bounds_temporary_ball" = "Ball is lost or out of bounds; Temporary ball";
+"unplayable_ball" = "Unplayable ball";
+"etiquette" = "Etiquette";
+
+//Rules screen paragraphs
+"first_rule_screen_paragraph" = "Place the first shot ball between the tee markers, but not in front of them.
+You may place the first shot ball within two lengths of the stick behind the line between the markers.
+If you take the first shot from outside the tee, in match play no penalty is imposed, but your opponent has the right to ask to replay the shot; in the game on the score - you are subject to a penalty of two hits, and then must play from the right place.";
+"second_rule_screen_paragraph" = "If you believe you have found your ball, but the identification mark is not visible, you may mark and pick up the ball to determine its belonging with the permission of your marker or your opponent.
+Play the ball from the position in which it appeared. Do not improve the location of the ball, the intended stance or swing area, or the line of play by moving, ducking, or breaking anything fixed or growing, except directly as a result of taking a playing stance or swing. Do not improve the location of the ball by tamping anything.
+If you play the wrong ball, in match play, you lose a hole; in score play, you incur a two-stroke penalty, after which you must correct the error by playing the correct ball.";
+"third_rule_screen_paragraph" = "If a ball you have played is deflected or stopped by you, your partner, your caddie or tackle, add a penalty kick and play the ball from the position it was in.
+If the ball you played is deflected or stopped by touching another ball that was at rest, play the ball from the position it was in without penalty, except in a score game where you incur a two stroke penalty if both balls were on the green before you hit it.";
+"fourth_rule_screen_paragraph" = "Before a ball is lifted to be returned to its original location (e.g. when the ball is lifted on the green for cleaning), its location must be marked.
+If the ball is picked up for a throw-in or placed elsewhere (e.g. for a throw-in within two lengths of the stick under the unplayed ball rule, for example), you are not required to mark the location of the ball, but it is advisable to do so.
+When throwing in, stand straight, hold the ball with your outstretched hand at shoulder level, then let it go.
+A thrown ball must be re-thrown if it has rolled back into a position affected by the circumstances of which it was thrown (for example, a stationary obstruction) and if it has stopped more than two club lengths from the point where it was thrown or closer to the hole than its original location, the nearest point of elimination or the point where it last crossed the water barrier.
+In all, Rule 20-2c provides nine instances where a thrown ball must be re-thrown. If the re-thrown ball rolls to any of these positions, place it at the first touch point on the re-throw. (Rule 20-2c)";
+"fifth_rule_screen_paragraph" = "You may pick up your ball, or ask to pick up any other ball, if you think the ball could help any other player.
+You do not have to agree to a request to leave your ball in a position that helps another player's play.
+You have the right to ask to pick up any ball if it interferes with your play.
+A ball that has been picked up as helping or hindering play cannot be cleared unless it has been picked up on the green.";
+"sixth_rule_screen_paragraph" = "You may move loose obstructions (i.e. loose natural objects such as rocks, fallen leaves or branches) unless both the obstruction and the ball are in the same obstruction. If you remove a loose obstruction and move the ball, the ball must be put back in its original location (except when the ball is on the green) and you are subject to a one stroke penalty.";
+"seventh_rule_screen_paragraph" = "Movable obstacles (i.e. artificial movable objects such as rakes, tins, etc.) located anywhere may be moved without penalty. If the ball is moved, it must be returned to its original position without penalty.
+If the ball is lying on a movable obstacle, the ball may be lifted, the obstacle removed and the ball thrown in without penalty at the point immediately below where the ball was lying on the obstacle, except on the green where the ball must be placed on that point.";
+"eighth_rule_screen_paragraph" = "Fixed obstructions are man-made fixed objects such as buildings or man-made roads (but check local regulations to determine paths and tracks in the field).
+An abnormal condition of an area of the field is the occasional water, repair area, as well as a burrow, indentation in the soil or path made on the field by a burrowing animal, reptile or bird.
+Except when the ball is in a water hazard, you may, without penalty, remove the effect of a fixed obstruction or abnormal condition of the field of play if it physically interferes with the position of the ball, your stance or swing. You may pick up the ball and throw it within one stick length of the 'nearest point of
+elimination point' but no closer to the hole than that point. If the ball is on the green, it is set at the nearest elimination point.
+You are not allowed to eliminate line-of-game interference unless both your ball and the obstruction are on the green. There is an additional option if your ball is in the bunker. You may remove the influence of an obstruction by throwing the ball in behind the bunker with a penalty of one hit.";
+"nineth_rule_screen_paragraph" = "If your ball is in a water obstacle (yellow pegs and/or lines), you may play the ball from the position in which it was played, or with a penalty of one shot:
+- play again from where the ball was played into the obstacle,
+- throw in the ball at any distance behind the water hazard, on a straight line from the hole through the point where the ball last crossed the water hazard.
+If your ball is in a lateral water hazard (red pegs and/or lines), in addition to the possibilities for a ball in a water hazard (see above), you may, with a penalty of one shot
+throw in the ball within two club lengths of:
+- the point where the ball last crossed the boundary of the obstruction, or
+- the point on the opposite side of the obstacle, equidistant from the hole, but not on the other side.
+The ball must be thrown within two club lengths of the point where it last crossed the boundary of the infringement or the point on the opposite side of the infringement equidistant from the hole.";
+"tenth_rule_screen_paragraph" = "Check how the local rules on the scorecard define the boundaries of the field.
+If the ball is lost outside a water hazard or outside the field of play, you must play the ball from the point from which the last shot was played, with a one kick penalty. You are allowed 5 minutes to search for the ball, after which if it is not found or its identity is not determined, it is lost.
+If, after the kick, you suspect that the ball may have been lost outside the water hazard or may have been out of the field, you should play a 'temporary ball'. You should declare that it is a temporary ball and play it before you move to look for the original ball.
+If you find that the original ball is lost (out of the water) or out of the field, you must continue to play the temporary ball with a one-strike penalty.
+If the original ball is found within the field of play, you must continue play with that ball and play with a provisional ball must be stopped.";
+"eleventh_rule_screen_paragraph" = "If your ball is in a water obstruction, the unplayable ball rule does not apply, and if you want to remove the influence of the obstruction, you must act on the water obstruction rule.
+In any other part of the field, if you think your ball is unplayable, you are entitled, with a one stroke penalty:
+- throw in the ball at the point where the last shot was played, or
+- throw in the ball any distance behind the point where the ball is, in a straight line from the hole through that point, or
+- throw in the ball within two club lengths of where the ball is, but no closer to the hole.
+If your ball is unplayable in the bunker, you may proceed as described above, but if you throw the ball backward on the line or within two club lengths, you must throw the ball into the bunker.";
+"twelfth_rule_screen_paragraph" = "If you still haven't done so, you should read the Etiquette section - which is not the Rules, but is a practical guide on how to behave on the field and how to act - safely, timely, respectful of other players, and how to keep the field in good condition.";
+
+//Screen's paragraphs
+"main_screen_text" = "The exact date of golf's origin is not known, but it is believed to have been invented by Scottish shepherds who tried to roll stones into rabbit holes with their staffs. Although many historians do not agree, it is believed that golf was born in the Roman Empire and the game was played with bent sticks and a ball stuffed with feathers. According to other theories, golf appeared in China, during the Ming Dynasty, this is evidenced by a scroll depicting the emperor, who tries something similar to a club to drive a ball into a hole. Nevertheless, modern golf comes from Scotland. The first mention of the game is considered to be an edict in 1457 by King James II of Scotland to ban golf, because it distracted archers from learning. It was there that the rules were invented and the system with 18 holes per course.
+In 1900, golf was included for the first time in the Olympic Games in Paris, France.";
+
+"rules_text" = "Since golf is essentially a self-regulating game, all golfers should have a good understanding of the basic rules contained in this manual. However, this guide is not a substitute for the rules of golf, which should be referred to whenever there is any doubt.
+Before you start your round:
+- Read the local rules on the scorecard or on the information board
+- Put an identification mark on the ball. Many golfers play the same brand of balls, and if you cannot identify your ball, it will be considered lost.
+- Count your clubs; you are allowed a maximum of 14 clubs.
+During the round:
+- Do not ask for advice from anyone other than your partner (your team player) or your caddies. Do not give advice to anyone other than your partner. But you may ask questions about rules, distances and positions of obstacles, flags, etc.
+- No practice strokes of any kind are allowed on the hole during play.
+At the end of the round:
+- In match play, make sure the result of the match is recorded
+- In scoring play, make sure the score card is fully drawn and return it as soon as possible.";
+
+"inventory_text" = "A player can take no more than 14 clubs to a game, each club is designed to perform a particular stroke. Golf clubs are divided into two types:
+
+'Wood' (Woods) - clubs designed to perform strokes at maximum distances, usually these are the first strokes. They are called 'wood' because of the wooden head, although modern woods are made of titanium-based metal alloys.
+ 
+'Iron' (irons) are clubs designed to hit at different distances, depending on the position of the ball. Sticks are so named because their head is made of metal. In addition to the material, hockey sticks differ in the shape of their heads.  So, for strikes at short distances and with a high trajectory used clubs 'pitching wedge' (angle of inclination of such clubs is 50-60 degrees. If you need to hit from a sandbox, you can use a sand wedge, it has a heavier sole and a special shape. For finishing kicks, players use a stick called 'putter', it is designed specifically for hitting on a flat surface with great accuracy.
+ In the 'wood' and 'iron' groups, clubs are numbered according to the angle between the club and the front hitting surface of the head. The smaller the number, the longer the potential stroke path. The difference in the length of strokes by clubs of neighboring numbers is about 10 meters.
+
+Another important part of golf equipment are balls. They should have the following characteristics: a diameter of not less than 4.27 cm, the weight in the range 41-46 grams, the surface of the ball should have 300-500 hollows (the more hollows, the higher the ball flies),
+ 
+When considering golf balls, the 'compression' factor should be mentioned. In simple words, compression is the level of deformation of the ball at impact. Its conventional value ranges from 0 (the ball is severely deformed at impact) to 200 (the ball does not deform at impact). Most balls have a compression of 80-100 (compresses for 2-3 mm at impact). According to the inner structure balls may consist of one, two, three or more layers-components. Balls with one layer are ideal for beginners because of its low cost.  Double-layered balls consist of a hard core and a thin, rigid shell. They combine low cost, durability and range, so they are suitable for most golfers. Three-layer balls have an elastic yarn winding over an elastic or gel core. These balls can be very heavily spun, sometimes to the athletes' advantage. In four-layer balls, there is an extra layer between the braid and the sheath. The potential of such balls can be revealed only by professionals.";
+
+"detail_text" = "A golf course must meet a number of requirements, namely it must consist of a series of holes, each hole must have its own starting area. There are two marks on the starting tee which show the allowable boundaries of the tee area. In addition to the starting area, the course includes a smooth course, an uneven course and other obstacles. The final part of the site is a hole, which is marked with a flag for ease of orientation. The hole is placed in the area with a minimum height of grass, which is called 'green'. In the other areas of grass height varies, this is done to make it difficult for the players to pass the site. As a rule, the holes are located in the line of sight from the starting area to the green. But this is not always the case, if the holes deviate to the left or right, such holes are called 'left dogleg' and 'right 'dogleg' respectively. If the direction bends twice, the hole is commonly referred to as a 'double dogleg.' Pads consist of 18 holes, but there are pads with 9 holes, in this situation they are passed twice, which in total is the same 18 holes.";
+
+"world_championsships_text" = "Some of the most prestigious and popular professional tournaments include:
+The Olympics. Golf was included in the program of the Olympic Games in 2016, before that golf was in the Olympics only 2 times (1900, 1904).
+The Masters Tournament is one of the four tournaments of the majors in golf (analog of the Grand Slam tournaments in tennis).
+The U.S. Open is the annual U.S. Open of golf.
+The British Open Championship is the oldest golf competition and one of the four tournaments in the majors.
+ The Professional Golf Association (PGA Championship) is an annual golf tournament held by the Professional Golfers Association of America.";
+
+//Interactive screen paragraphs
+"first_interactive_text" = "1) There are 336 holes on the surface of a golf ball.";
+"second_interactive_text" = "2) Astronaut Alan Shepherd was the first person to hit the ball outside of our planet with a club. The force of gravity on the Moon is much lower than on Earth, so the ball flew several kilometers away.";
+"third_interactive_text" = "3) On July 7, 1998, a Scottish short golf club made 200 years ago sold at a Christie's auction in Glasgow, Scotland, for $150,000";
+"fourth_interactive_text" = "4) The average speed of athletes hitting the ball with a club is 42 m/s, or 150 km/h. While Tiger Woods' stroke reaches 56 m/s which equals 201 km/h.";
+"fifth_interactive_text" = "5) Golf is very popular among businessmen. According to statistics, every tenth multi-million dollar deal is concluded just on the golf course. By the way, about 40% of those who have joined golf clubs and paid a lot of money for it really do not know how to play golf.";
