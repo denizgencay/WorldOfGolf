@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334C55002886DE9500C4160E /* ExpandableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C54FF2886DE9500C4160E /* ExpandableViewCell.swift */; };
 		33E58B35287F14EC007EEEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B34287F14EC007EEEE7 /* AppDelegate.swift */; };
 		33E58B37287F14EC007EEEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B36287F14EC007EEEE7 /* SceneDelegate.swift */; };
 		33E58B39287F14EC007EEEE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B38287F14EC007EEEE7 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		334C54FF2886DE9500C4160E /* ExpandableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableViewCell.swift; sourceTree = "<group>"; };
 		33E58B31287F14EC007EEEE7 /* WorldOfGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E58B34287F14EC007EEEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33E58B36287F14EC007EEEE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				33F98F032881A1F0004EEB37 /* RulesViewController.swift */,
+				334C54FF2886DE9500C4160E /* ExpandableViewCell.swift */,
 			);
 			path = Rules;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				33E58B6F287F281A007EEEE7 /* MenuSecondTableViewCell.swift in Sources */,
 				4E7D0F4F2886CD20001FAB3E /* ImageCell.swift in Sources */,
 				33F98EFD2881A19A004EEB37 /* AthletesViewController.swift in Sources */,
+				334C55002886DE9500C4160E /* ExpandableViewCell.swift in Sources */,
 				33E58B6B287F2654007EEEE7 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
