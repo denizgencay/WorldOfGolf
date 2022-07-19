@@ -78,6 +78,7 @@ class RulesViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let cell = tableView.dequeueReusableCell(withIdentifier: "expandableViewCell", for: indexPath)
         cell.selectionStyle = .none
         cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.textColor = UIColor.white
         if indexPath.row == 0{
             cell.textLabel?.text = sections[indexPath.section].title
         }else{

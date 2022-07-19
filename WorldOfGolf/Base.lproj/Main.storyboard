@@ -287,7 +287,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lkb-D4-cO7">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="famousAthletesCell" id="HFM-Us-5vb" customClass="FamousAthletesTableViewCell" customModule="WorldOfGolf" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
@@ -296,6 +296,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -328,7 +329,8 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="W3A-Oi-VNd">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="expandableViewCell" id="Emp-0p-Mnj" customClass="ExpandableViewCell" customModule="WorldOfGolf" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
@@ -337,6 +339,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -408,14 +411,37 @@
                     <view key="view" contentMode="scaleToFill" id="vCC-zo-xiv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RYc-Dr-qyg">
+                                <rect key="frame" x="20" y="88" width="374" height="774"/>
+                                <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="IyP-H0-PDZ"/>
                         <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="RYc-Dr-qyg" firstAttribute="top" secondItem="IyP-H0-PDZ" secondAttribute="top" id="JlO-mV-agM"/>
+                            <constraint firstItem="RYc-Dr-qyg" firstAttribute="bottom" secondItem="IyP-H0-PDZ" secondAttribute="bottom" id="dYl-c9-g8J"/>
+                            <constraint firstItem="RYc-Dr-qyg" firstAttribute="trailing" secondItem="vCC-zo-xiv" secondAttribute="trailingMargin" id="u9k-ea-XcO"/>
+                            <constraint firstItem="RYc-Dr-qyg" firstAttribute="leading" secondItem="vCC-zo-xiv" secondAttribute="leadingMargin" id="zid-zJ-I67"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Pel-gN-WBO"/>
+                    <connections>
+                        <outlet property="textView" destination="RYc-Dr-qyg" id="g8j-db-KyY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xAF-Qb-CWF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3183" y="658"/>
+            <point key="canvasLocation" x="3182.608695652174" y="657.58928571428567"/>
         </scene>
         <!--Championships View Controller-->
         <scene sceneID="9fY-JO-ZvQ">
@@ -424,14 +450,37 @@
                     <view key="view" contentMode="scaleToFill" id="k9q-Lf-EJZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jeo-cL-3tR">
+                                <rect key="frame" x="20" y="88" width="374" height="774"/>
+                                <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="haS-56-uAV"/>
                         <color key="backgroundColor" red="0.070588235289999995" green="0.098039215690000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jeo-cL-3tR" firstAttribute="bottom" secondItem="haS-56-uAV" secondAttribute="bottom" id="IFY-Ll-ch5"/>
+                            <constraint firstItem="Jeo-cL-3tR" firstAttribute="top" secondItem="haS-56-uAV" secondAttribute="top" id="QEg-pE-eHR"/>
+                            <constraint firstItem="Jeo-cL-3tR" firstAttribute="leading" secondItem="k9q-Lf-EJZ" secondAttribute="leadingMargin" id="WxB-kn-NAF"/>
+                            <constraint firstItem="Jeo-cL-3tR" firstAttribute="trailing" secondItem="k9q-Lf-EJZ" secondAttribute="trailingMargin" id="eZx-hr-Usl"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nMc-6f-eWy"/>
+                    <connections>
+                        <outlet property="textView" destination="Jeo-cL-3tR" id="bUK-XE-32y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ev-JJ-roG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3183" y="-91"/>
+            <point key="canvasLocation" x="3182.608695652174" y="-91.071428571428569"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="Yw9-bK-jLj">
@@ -559,9 +608,6 @@
         <image name="image" width="507" height="634"/>
         <image name="screenSaver" width="800" height="1280"/>
         <image name="topBall" width="21.5" height="21.5"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -50,6 +50,7 @@ class AthletesViewController: UIViewController, UITableViewDelegate, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "famousAthletesCell", for: indexPath)
         cell.selectionStyle = .none
         cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.textColor = UIColor.white
         if indexPath.row == 0{
             cell.textLabel?.text = sections[indexPath.section].title
         }else{
