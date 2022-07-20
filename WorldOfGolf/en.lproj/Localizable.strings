@@ -110,3 +110,37 @@ The British Open Championship is the oldest golf competition and one of the four
 "third_interactive_text" = "3) On July 7, 1998, a Scottish short golf club made 200 years ago sold at a Christie's auction in Glasgow, Scotland, for $150,000";
 "fourth_interactive_text" = "4) The average speed of athletes hitting the ball with a club is 42 m/s, or 150 km/h. While Tiger Woods' stroke reaches 56 m/s which equals 201 km/h.";
 "fifth_interactive_text" = "5) Golf is very popular among businessmen. According to statistics, every tenth multi-million dollar deal is concluded just on the golf course. By the way, about 40% of those who have joined golf clubs and paid a lot of money for it really do not know how to play golf.";
+
+//Athletes texts
+"sam_snead" = "Sam Snead";
+"walter_hagen" = "Walter Hagen";
+"bobby_jhonnes" = "Bobby Jhones";
+"tiger_woods" = "Tiger Woods";
+"jack_nicklaus" = "Jack Nicklaus";
+
+//Athletes paragraphs
+"first_athletes_paragraph" = "Major Series victories: 7 (1949, 1952 and 1954 Masters; 1946 Open; 1942, 1949 and 1951 PGA Championship)
+
+PGA Tour victories: 82 (first all-time)
+
+Notes: The only major that eluded Snead was the U.S. Open, where he painfully finished second four times. Possessor of what many consider 'the perfect golf swing,' Snead remains the oldest winner on the PGA Tour, capturing the Grand Greensboro in 1965 in 52 years, 10 months and 8 days. He is the oldest player to compete in the majors: at age 67 years, 2 months, 7 days, Snead competed in the 1979 PGA Championship.";
+"second_athletes_paragraph" = "Major Series victories: 11 (1914, 1919 U.S. Open; 1922, 1924, 1928, 1929 Open; 1921, 1924, 1925, 1926, 1927 PGA Championship).
+
+PGA Tour victories: 45 (eighth all-time)
+
+Notes: Hagen ranks third overall with eleven wins, behind only Tiger Woods and Jack Nicklas. Those 11 titles include five PGA championships. Amazingly, Hagen has won all five of those victories when the PGA was a match play format. He is also the first Native American to win the Open when he pulled the trick in 1922. A six-time U.S. Ryder Cup captain, Hagen has competed in six Masters tournaments, but the tournament was officially founded in 1934.";
+"third_athletes_paragraph" = "Major Series victories: 13 (1923, 1926, 1929, and 1930; 1926, 1927, and 1930). U.S. Open; 1926, 1927, and 1930. U.S. Open; 1924, 1925, 1927, 1928, and 1930 U.S. Amateur; 1930 British Amateur)
+
+PGA Tour victories: 9.
+
+Notes: Before the era of major modern championships, the four major majors consisted of the U.S. Amateur, U.S. Open, Open Championship and British Amateur. During the seven-year period between 1923 and 1930, there was no greater champion golfer than Atlanta's Bobby Jones, who also co-founded the Masters. As an amateur, Jones often defeated the best professional golfers of the Walter Hagen and Gene Sarazen era. In 1930, Jones won all four majors, effectively creating what he called a 'grand slam.' He retired from competitive golf at the age of 28. In all, Jones played in 31 majors, winning 13 of them and placing in the top 10 finalists 27 times.";
+"fourth_athletes_paragraph" = "Major victories: 14 (1997, 2001, 2002 and 2005 Masters; 2000, 2002 and 2008 U.S. Open; 2000, 2005 and 2006 Open; 1999, 2000, 2006 and 2007 PGA Championship)
+
+PGA Tour victories: 80 (second all-time)
+
+Notes: Once upon a time, in the 2000s, it seemed that Woods had surpassed Jack Nicklas in the major tally, not only formally, but practically, wondering how much more he would collect by passing the Golden Bear. But after an 11-year championship drought, Tiger Woods scored one of the greatest victories in all of sports and won the 2019 Masters to continue to make his name in history. Woods changed the game, brought it to the masses and is undoubtedly a major reason why golfers today look more like 'athletes' than ever before. He is one of only five golfers to win a modern Grand Slam tournament (three times), and the only player of the modern era to win four (modern) tournaments in a row, the Tiger Slam.";
+"fifth_athletes_paragraph" = "Major Series victories: 18 (1963, 1965, 1966, 1972, 1975, and 1986; 1962, 1967, 1972, 1972, and 1980). Masters; 1962, 1967, 1972, and 1980. U.S. Open; 1966, 1970, and 1978. Open Championship; 1963, 1971, 1973, 1975 and 1980. PGA Championship)
+
+PGA Tour victories: 73 (third all-time)
+
+Notes: If being the best means winning major championships. Then Niklas is the greatest player of all time, and that's not even up for debate. Along with his record 18 major victories, Nicklas finished second in the majors 19 times and was third nine times. He finished his career ranked in the top 10 in 73 of the 164 majors in which he participated. Nicklas is also a 73-time PGA Tour winner (third all-time). He remains the oldest Masters champion when he dropped his record sixth green jacket in 1986 at age 46. He became the first player to make double and triple career strokes at four professional major golf championships. There has never been a better golf champion than Nicklas.";
