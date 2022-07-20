@@ -35,6 +35,7 @@ class RulesViewController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet weak var textView: UITextView!
     
   
+    
     @IBOutlet weak var tableView: UITableView!
     
     private var sections = [Section]()
