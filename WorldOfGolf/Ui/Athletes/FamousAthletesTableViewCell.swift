@@ -9,6 +9,9 @@ import UIKit
 
 class FamousAthletesTableViewCell: UITableViewCell {
 
+   
+    @IBOutlet weak var athleteLabel: UILabel!
+    @IBOutlet weak var athleteImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
