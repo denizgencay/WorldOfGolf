@@ -87,12 +87,12 @@ class RulesViewController: UIViewController, UITableViewDelegate, UITableViewDat
             return cell!
         }else
         {
-            let cellFull = tableView.dequeueReusableCell(withIdentifier: "expandedCell", for: indexPath)
-            cellFull.textLabel?.text = sections[indexPath.section].options[indexPath.row - 1]
-            cellFull.selectionStyle = .none
-            cellFull.textLabel?.numberOfLines = 0
-            cellFull.textLabel?.textColor = UIColor.white
-            return cellFull
+            let cellFull = tableView.dequeueReusableCell(withIdentifier: "expandedCell", for: indexPath) as? ExpandedTableViewCell
+            cellFull!.label?.text = sections[indexPath.section].options[indexPath.row - 1]
+            cellFull!.selectionStyle = .none
+            cellFull!.label?.numberOfLines = 0
+            cellFull!.label?.textColor = UIColor.white
+            return cellFull!
         }
         
     }
