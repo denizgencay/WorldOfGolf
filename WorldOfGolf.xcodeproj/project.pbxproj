@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334C55002886DE9500C4160E /* ExpandableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C54FF2886DE9500C4160E /* ExpandableViewCell.swift */; };
+		334C550228873D3100C4160E /* FamousAthletesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C550128873D3100C4160E /* FamousAthletesTableViewCell.swift */; };
+		334C550D2887408200C4160E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 334C550F2887408200C4160E /* Localizable.strings */; };
 		33E58B35287F14EC007EEEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B34287F14EC007EEEE7 /* AppDelegate.swift */; };
 		33E58B37287F14EC007EEEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B36287F14EC007EEEE7 /* SceneDelegate.swift */; };
 		33E58B39287F14EC007EEEE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E58B38287F14EC007EEEE7 /* ViewController.swift */; };
@@ -27,6 +30,7 @@
 		33F98F082881A207004EEB37 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F98F072881A207004EEB37 /* MainViewController.swift */; };
 		4E7D0F4F2886CD20001FAB3E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D0F4E2886CD20001FAB3E /* ImageCell.swift */; };
 		4E7D0F512886D283001FAB3E /* ExpandableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D0F502886D283001FAB3E /* ExpandableTableViewCell.swift */; };
+		4EA17E78288823240082690C /* ExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA17E77288823240082690C /* ExpandedTableViewCell.swift */; };
 		4EC906012882E0190073AACA /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC906002882E0190073AACA /* UIImage+.swift */; };
 		4EC906032882E2980073AACA /* UI+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC906022882E2980073AACA /* UI+.swift */; };
 		4EC906062882EC6D0073AACA /* InteractiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC906052882EC6D0073AACA /* InteractiveViewController.swift */; };
@@ -50,13 +54,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		334C54FF2886DE9500C4160E /* ExpandableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableViewCell.swift; sourceTree = "<group>"; };
+		334C550128873D3100C4160E /* FamousAthletesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousAthletesTableViewCell.swift; sourceTree = "<group>"; };
+		334C550728873F9300C4160E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		334C550828873F9300C4160E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		334C550928873FAF00C4160E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		334C550A28873FAF00C4160E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		334C550E2887408200C4160E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		334C55102887408A00C4160E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		33E58B31287F14EC007EEEE7 /* WorldOfGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E58B34287F14EC007EEEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33E58B36287F14EC007EEEE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		33E58B38287F14EC007EEEE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		33E58B3B287F14EC007EEEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33E58B3D287F14ED007EEEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		33E58B40287F14ED007EEEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33E58B42287F14ED007EEEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33E58B47287F14ED007EEEE7 /* WorldOfGolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldOfGolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E58B4B287F14ED007EEEE7 /* WorldOfGolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfGolfTests.swift; sourceTree = "<group>"; };
@@ -74,6 +84,7 @@
 		33F98F072881A207004EEB37 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4E7D0F4E2886CD20001FAB3E /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		4E7D0F502886D283001FAB3E /* ExpandableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewCell.swift; sourceTree = "<group>"; };
+		4EA17E77288823240082690C /* ExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedTableViewCell.swift; sourceTree = "<group>"; };
 		4EC906002882E0190073AACA /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		4EC906022882E2980073AACA /* UI+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+.swift"; sourceTree = "<group>"; };
 		4EC906052882EC6D0073AACA /* InteractiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveViewController.swift; sourceTree = "<group>"; };
@@ -129,8 +140,6 @@
 			children = (
 				4EC905FF2882E00D0073AACA /* Util */,
 				33E58B67287F17C4007EEEE7 /* Ui */,
-				33E58B66287F17BD007EEEE7 /* Domain */,
-				33E58B65287F17B8007EEEE7 /* Data */,
 				33E58B34287F14EC007EEEE7 /* AppDelegate.swift */,
 				33E58B36287F14EC007EEEE7 /* SceneDelegate.swift */,
 				33E58B38287F14EC007EEEE7 /* ViewController.swift */,
@@ -138,6 +147,7 @@
 				33E58B3D287F14ED007EEEE7 /* Assets.xcassets */,
 				33E58B3F287F14ED007EEEE7 /* LaunchScreen.storyboard */,
 				33E58B42287F14ED007EEEE7 /* Info.plist */,
+				334C550F2887408200C4160E /* Localizable.strings */,
 			);
 			path = WorldOfGolf;
 			sourceTree = "<group>";
@@ -157,20 +167,6 @@
 				33E58B57287F14ED007EEEE7 /* WorldOfGolfUITestsLaunchTests.swift */,
 			);
 			path = WorldOfGolfUITests;
-			sourceTree = "<group>";
-		};
-		33E58B65287F17B8007EEEE7 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		33E58B66287F17BD007EEEE7 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Domain;
 			sourceTree = "<group>";
 		};
 		33E58B67287F17C4007EEEE7 /* Ui */ = {
@@ -212,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				33F98F032881A1F0004EEB37 /* RulesViewController.swift */,
+				334C54FF2886DE9500C4160E /* ExpandableViewCell.swift */,
+				4EA17E77288823240082690C /* ExpandedTableViewCell.swift */,
 			);
 			path = Rules;
 			sourceTree = "<group>";
@@ -244,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				33F98EFB2881A19A004EEB37 /* AthletesViewController.swift */,
+				334C550128873D3100C4160E /* FamousAthletesTableViewCell.swift */,
 			);
 			path = Athletes;
 			sourceTree = "<group>";
@@ -351,6 +350,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 33E58B28287F14EC007EEEE7;
 			productRefGroup = 33E58B32287F14EC007EEEE7 /* Products */;
@@ -370,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33E58B41287F14ED007EEEE7 /* LaunchScreen.storyboard in Resources */,
+				334C550D2887408200C4160E /* Localizable.strings in Resources */,
 				33E58B3E287F14ED007EEEE7 /* Assets.xcassets in Resources */,
 				33E58B3C287F14EC007EEEE7 /* Main.storyboard in Resources */,
 			);
@@ -400,6 +401,7 @@
 				33F98F042881A1F0004EEB37 /* RulesViewController.swift in Sources */,
 				33E58B39287F14EC007EEEE7 /* ViewController.swift in Sources */,
 				33F98F022881A1E6004EEB37 /* InventoryViewController.swift in Sources */,
+				334C550228873D3100C4160E /* FamousAthletesTableViewCell.swift in Sources */,
 				33F98F082881A207004EEB37 /* MainViewController.swift in Sources */,
 				33F98F062881A1F8004EEB37 /* DetailsViewController.swift in Sources */,
 				4EC906032882E2980073AACA /* UI+.swift in Sources */,
@@ -409,9 +411,11 @@
 				33E58B37287F14EC007EEEE7 /* SceneDelegate.swift in Sources */,
 				4E7D0F512886D283001FAB3E /* ExpandableTableViewCell.swift in Sources */,
 				4EC906012882E0190073AACA /* UIImage+.swift in Sources */,
+				4EA17E78288823240082690C /* ExpandedTableViewCell.swift in Sources */,
 				33E58B6F287F281A007EEEE7 /* MenuSecondTableViewCell.swift in Sources */,
 				4E7D0F4F2886CD20001FAB3E /* ImageCell.swift in Sources */,
 				33F98EFD2881A19A004EEB37 /* AthletesViewController.swift in Sources */,
+				334C55002886DE9500C4160E /* ExpandableViewCell.swift in Sources */,
 				33E58B6B287F2654007EEEE7 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,10 +453,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		334C550F2887408200C4160E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334C550E2887408200C4160E /* en */,
+				334C55102887408A00C4160E /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		33E58B3A287F14EC007EEEE7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33E58B3B287F14EC007EEEE7 /* Base */,
+				334C550728873F9300C4160E /* Base */,
+				334C550928873FAF00C4160E /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -460,7 +474,8 @@
 		33E58B3F287F14ED007EEEE7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33E58B40287F14ED007EEEE7 /* Base */,
+				334C550828873F9300C4160E /* Base */,
+				334C550A28873FAF00C4160E /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -472,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -532,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

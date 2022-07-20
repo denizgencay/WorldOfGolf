@@ -16,7 +16,7 @@ class MainViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "Main")
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "main".localized())
         tableView.delegate = self
         tableView.dataSource = self
         // Do any additional setup after loading the view.
@@ -39,7 +39,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource
 {
     
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {return 2}
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {return 1}
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
@@ -52,19 +52,24 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource
                     assertionFailure("Cannot dequeue reusable cell \(ImageCell.self) with reuseIdentifier: imageCell")
                     return UITableViewCell()
                 }
-               
+            cell.textView.text = "main_screen_text".localized()
                 return cell
-            default:
-                guard let cell = tableView.dequeueReusableCell(withIdentifier: "expandableCell",for: indexPath) as? ExpandableTableViewCell
-                else
-                {
-                    assertionFailure("Cannot dequeue reusable cell \(ExpandableTableViewCell.self) with reuseIdentifier: expandableCell")
-                    return UITableViewCell()
-                }
+            default:return UITableViewCell()
                
-                return cell
                 
             
         }
+    }
+}
+
+extension String{
+    func localized() -> String{
+        return NSLocalizedString(
+            self,
+            tableName: "Localizable",
+            bundle: .main,
+            value: self,
+            comment: self
+        )
     }
 }

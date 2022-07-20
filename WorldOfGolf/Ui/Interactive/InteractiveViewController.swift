@@ -21,7 +21,7 @@ class InteractiveViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "Interactive")
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "interactive".localized())
         makeTouchableImage(image: ball1)
         makeTouchableImage(image: ball2)
         makeTouchableImage(image: ball3)
