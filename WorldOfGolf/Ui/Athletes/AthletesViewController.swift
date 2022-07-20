@@ -21,11 +21,11 @@ class AthletesViewController: UIViewController, UITableViewDelegate, UITableView
         tableView.dataSource = self
         
         sections = [
-            Section(title: "Section 1", options: [""]),
-            Section(title: "Section 2", options: [""]),
-            Section(title: "Section 3", options: [""]),
-            Section(title: "Section 4", options: [""]),
-            Section(title: "Section 5", options: [""]),
+            Section(title: "sam_snead".localized(), options: ["first_athletes_paragraph".localized()]),
+            Section(title: "walter_hagen".localized(), options: ["second_athletes_paragraph".localized()]),
+            Section(title: "bobby_jhonnes".localized(), options: ["third_athletes_paragraph".localized()]),
+            Section(title: "tiger_woods".localized(), options: ["fourth_athletes_paragraph".localized()]),
+            Section(title: "jack_nicklaus".localized(), options: ["fifth_athletes_paragraph".localized()]),
         ]
 
         // Do any additional setup after loading the view.
