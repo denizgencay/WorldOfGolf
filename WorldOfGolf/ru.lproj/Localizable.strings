@@ -6,6 +6,7 @@
 "inventory" = "ИНВЕНТАРЬ";
 "world_championships" = "ЧЕМПИОНАТЫ МИРА";
 "famous_athletes" = "ИЗВЕСТНЫЕ СПОРТСМЕНЫ";
+"press_to_start" = "НАЖМИТЕ ЧТОБЫ НАЧАТЬ";
 
 //Rules screen texts
 "beat" = "Удар";

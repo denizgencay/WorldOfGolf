@@ -75,14 +75,14 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource
                     assertionFailure("Cannot dequeue reusable cell \(MenuFirstTableViewCell.self) with reuseIdentifier: tableViewCell")
                     return UITableViewCell()
                 }
-                cell.button.setTitle("INTERACTIVE", for: .normal)
+                cell.button.setTitle("interactive".localized(), for: .normal)
                 return cell
-            case 1: return initCell(title: "MAIN", indexPath: indexPath,imagePath: "main")
-            case 2: return initCell(title: "RULES", indexPath: indexPath,imagePath: "rules")
-            case 3: return initCell(title: "DETAILS", indexPath: indexPath, imagePath: "details")
-            case 4: return initCell(title: "INVENTORY", indexPath: indexPath, imagePath: "inventory")
-            case 5: return initCell(title: "WORLD CHAMPIONSHIPS", indexPath: indexPath, imagePath: "worldchamp")
-            case 6: return initCell(title: "FAMOUS ATHLETES", indexPath: indexPath, imagePath: "famous")
+            case 1: return initCell(title: "main".localized(), indexPath: indexPath,imagePath: "main")
+            case 2: return initCell(title: "rules".localized(), indexPath: indexPath,imagePath: "rules")
+            case 3: return initCell(title: "details".localized(), indexPath: indexPath, imagePath: "details")
+        case 4: return initCell(title: "inventory".localized(), indexPath: indexPath, imagePath: "inventory")
+        case 5: return initCell(title: "world_championships".localized(), indexPath: indexPath, imagePath: "worldchamp")
+        case 6: return initCell(title: "famous_athletes".localized(), indexPath: indexPath, imagePath: "famous")
             default: return initCell(title: "", indexPath: indexPath, imagePath: "")
         }
     }

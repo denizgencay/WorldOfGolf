@@ -18,13 +18,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screenSaver" translatesAutoresizingMaskIntoConstraints="NO" id="ufs-Fi-wxr">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRESS TO START" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSq-jM-NeT">
-                                <rect key="frame" x="88" y="430" width="238" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRESS TO START" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSq-jM-NeT">
+                                <rect key="frame" x="20" y="434.5" width="374" height="27.5"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="238" id="VI0-Jw-0Eq"/>
+                                    <constraint firstAttribute="width" constant="374" id="VI0-Jw-0Eq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
@@ -42,12 +42,13 @@
                     </view>
                     <connections>
                         <outlet property="backgroundImage" destination="ufs-Fi-wxr" id="8v2-Wm-e3p"/>
+                        <outlet property="textView" destination="VSq-jM-NeT" id="ugx-o3-SUi"/>
                         <segue destination="rnp-gT-09m" kind="presentation" identifier="showMainScreen" modalPresentationStyle="fullScreen" id="8Iw-Ri-RfL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-787" y="158"/>
+            <point key="canvasLocation" x="-788.40579710144937" y="157.36607142857142"/>
         </scene>
         <!--Interactive View Controller-->
         <scene sceneID="jH9-G6-4Ck">
@@ -436,7 +437,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="554" id="jQD-ke-hI6"/>
                                                 </constraints>
-                                                <mutableString key="text">Поскольку гольф, по сути, саморегулируемая игра, всем гольфистам следует иметь хорошее понимание базовых правил, которые содержатся в этом руководстве. Однако это руководство не заменяет собой правила гольфа, к которым следует обращаться при возникновении любого сомнения.
+                                                <string key="text">Поскольку гольф, по сути, саморегулируемая игра, всем гольфистам следует иметь хорошее понимание базовых правил, которые содержатся в этом руководстве. Однако это руководство не заменяет собой правила гольфа, к которым следует обращаться при возникновении любого сомнения.
 Перед началом раунда:
 • Прочитайте местные правила на счетной карточке или на информационном стенде
 • Поставьте на мяч идентификационную метку. Многие гольфисты играют одной и той же маркой мячей, и, если вы не сможете определить принадлежность своего мяча, он будет считаться потерянным.
@@ -446,7 +447,7 @@
 • Во время игры на лунке запрещаются любые тренировочные удары.
 В конце раунда:
 • В матчевой игре, убедитесь, что результат матча зафиксирован
-• В игре на счет, убедитесь, что счетная карточка полностью оформлена, и возвратите ее как можно скорее.</mutableString>
+• В игре на счет, убедитесь, что счетная карточка полностью оформлена, и возвратите ее как можно скорее.</string>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
