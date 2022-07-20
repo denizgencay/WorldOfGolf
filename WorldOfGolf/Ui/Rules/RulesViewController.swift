@@ -12,15 +12,18 @@ class Section{
     let title: String
     let options: [String]
     var isOpened: Bool = false
+    var imageUrl: String = ""
     
     init(
         title: String,
         options: [String],
-        isOpened: Bool = false
+        isOpened: Bool = false,
+        imageUrl: String = ""
     ){
         self.title = title
         self.options = options
         self.isOpened = isOpened
+        self.imageUrl = imageUrl
     }
 }
 

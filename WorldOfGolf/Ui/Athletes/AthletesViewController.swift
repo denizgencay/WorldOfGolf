@@ -21,11 +21,11 @@ class AthletesViewController: UIViewController, UITableViewDelegate, UITableView
         tableView.dataSource = self
         
         sections = [
-            Section(title: "sam_snead".localized(), options: ["first_athletes_paragraph".localized()]),
-            Section(title: "walter_hagen".localized(), options: ["second_athletes_paragraph".localized()]),
-            Section(title: "bobby_jhonnes".localized(), options: ["third_athletes_paragraph".localized()]),
-            Section(title: "tiger_woods".localized(), options: ["fourth_athletes_paragraph".localized()]),
-            Section(title: "jack_nicklaus".localized(), options: ["fifth_athletes_paragraph".localized()]),
+            Section(title: "sam_snead".localized(), options: ["first_athletes_paragraph".localized()], imageUrl: "sam.png"),
+            Section(title: "walter_hagen".localized(), options: ["second_athletes_paragraph".localized()], imageUrl: "walter.png"),
+            Section(title: "bobby_jhonnes".localized(), options: ["third_athletes_paragraph".localized()], imageUrl: "bobby.png"),
+            Section(title: "tiger_woods".localized(), options: ["fourth_athletes_paragraph".localized()], imageUrl: "tiger.png"),
+            Section(title: "jack_nicklaus".localized(), options: ["fifth_athletes_paragraph".localized()], imageUrl: "jack.png"),
         ]
 
         // Do any additional setup after loading the view.
@@ -37,7 +37,6 @@ class AthletesViewController: UIViewController, UITableViewDelegate, UITableView
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let section = sections[section]
-        
         if section.isOpened == true{
             return section.options.count + 1
         }else{
@@ -47,16 +46,24 @@ class AthletesViewController: UIViewController, UITableViewDelegate, UITableView
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "famousAthletesCell", for: indexPath)
-        cell.selectionStyle = .none
-        cell.textLabel?.numberOfLines = 0
-        cell.textLabel?.textColor = UIColor.white
-        if indexPath.row == 0{
-            cell.textLabel?.text = sections[indexPath.section].title
-        }else{
-            cell.textLabel?.text = sections[indexPath.section].options[indexPath.row - 1]
+        if indexPath.row == 0
+        {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "expandableViewCell", for: indexPath) as? ExpandableViewCell
+            cell!.selectionStyle = .none
+            cell?.textLabel?.numberOfLines = 0
+            cell?.textLabel?.textColor = UIColor.white
+            cell!.label.text = sections[indexPath.section].title
+            return cell!
+        }else
+        {
+            let cellFull = tableView.dequeueReusableCell(withIdentifier: "athletesCell", for: indexPath) as? FamousAthletesTableViewCell
+            cellFull!.athleteLabel?.text = sections[indexPath.section].options[indexPath.row - 1]
+            cellFull!.selectionStyle = .none
+            cellFull!.athleteLabel?.numberOfLines = 0
+            cellFull!.athleteLabel?.textColor = UIColor.white
+            cellFull!.athleteImage.image = UIImage(named:sections[indexPath.section].imageUrl)?.resizedImage(Size: CGSize(width: 250, height: 125))!
+            return cellFull!
         }
-        return cell
     }
     
     
