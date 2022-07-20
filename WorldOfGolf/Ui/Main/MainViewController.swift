@@ -39,7 +39,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource
 {
     
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {return 2}
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {return 1}
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
@@ -54,15 +54,8 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource
                 }
             cell.textView.text = "main_screen_text".localized()
                 return cell
-            default:
-                guard let cell = tableView.dequeueReusableCell(withIdentifier: "expandableCell",for: indexPath) as? ExpandableTableViewCell
-                else
-                {
-                    assertionFailure("Cannot dequeue reusable cell \(ExpandableTableViewCell.self) with reuseIdentifier: expandableCell")
-                    return UITableViewCell()
-                }
+            default:return UITableViewCell()
                
-                return cell
                 
             
         }
