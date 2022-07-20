@@ -61,7 +61,7 @@ class AthletesViewController: UIViewController, UITableViewDelegate, UITableView
             cellFull!.selectionStyle = .none
             cellFull!.athleteLabel?.numberOfLines = 0
             cellFull!.athleteLabel?.textColor = UIColor.white
-            cellFull!.athleteImage.image = UIImage(named:sections[indexPath.section].imageUrl)?.resizedImage(Size: CGSize(width: 250, height: 125))!
+            cellFull!.athleteImage.image = UIImage(named:sections[indexPath.section].imageUrl)?.resizedImage(Size: CGSize(width: 335, height: 132))!
             return cellFull!
         }
     }
