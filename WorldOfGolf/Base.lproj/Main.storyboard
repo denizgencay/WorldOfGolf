@@ -18,13 +18,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screenSaver" translatesAutoresizingMaskIntoConstraints="NO" id="ufs-Fi-wxr">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRESS TO START" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSq-jM-NeT">
-                                <rect key="frame" x="88" y="430" width="238" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRESS TO START" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSq-jM-NeT">
+                                <rect key="frame" x="20" y="434.5" width="374" height="27.5"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="238" id="VI0-Jw-0Eq"/>
+                                    <constraint firstAttribute="width" constant="374" id="VI0-Jw-0Eq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
@@ -42,12 +42,13 @@
                     </view>
                     <connections>
                         <outlet property="backgroundImage" destination="ufs-Fi-wxr" id="8v2-Wm-e3p"/>
+                        <outlet property="textView" destination="VSq-jM-NeT" id="ugx-o3-SUi"/>
                         <segue destination="rnp-gT-09m" kind="presentation" identifier="showMainScreen" modalPresentationStyle="fullScreen" id="8Iw-Ri-RfL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-787" y="158"/>
+            <point key="canvasLocation" x="-788.40579710144937" y="157.36607142857142"/>
         </scene>
         <!--Interactive View Controller-->
         <scene sceneID="jH9-G6-4Ck">
@@ -295,9 +296,7 @@
                                                         <constraint firstItem="u27-G4-qaG" firstAttribute="top" secondItem="5IY-EC-xKJ" secondAttribute="top" constant="8" id="80R-7F-4qu"/>
                                                         <constraint firstItem="u27-G4-qaG" firstAttribute="centerX" secondItem="RXE-CB-G0T" secondAttribute="centerX" id="Bay-xn-P96"/>
                                                         <constraint firstItem="RXE-CB-G0T" firstAttribute="leading" secondItem="5IY-EC-xKJ" secondAttribute="leadingMargin" id="Bnl-hf-uys"/>
-                                                        <constraint firstAttribute="trailing" secondItem="u27-G4-qaG" secondAttribute="trailing" constant="8" id="EGa-nV-H0v"/>
                                                         <constraint firstItem="RXE-CB-G0T" firstAttribute="trailing" secondItem="5IY-EC-xKJ" secondAttribute="trailingMargin" id="Ipc-dp-c3t"/>
-                                                        <constraint firstItem="u27-G4-qaG" firstAttribute="leading" secondItem="RXE-CB-G0T" secondAttribute="trailing" constant="-335" id="MFN-tn-qUT"/>
                                                         <constraint firstItem="u27-G4-qaG" firstAttribute="leading" secondItem="5IY-EC-xKJ" secondAttribute="leading" constant="8" id="dnb-tU-7pT"/>
                                                         <constraint firstAttribute="bottom" secondItem="RXE-CB-G0T" secondAttribute="bottom" constant="8" id="ncH-Og-z9G"/>
                                                     </constraints>
