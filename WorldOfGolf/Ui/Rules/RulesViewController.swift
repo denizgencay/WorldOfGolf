@@ -30,7 +30,12 @@ class Section{
 class RulesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     let uiGlobal = UIGlobal.shared
-
+  
+   
+    @IBOutlet weak var textView: UITextView!
+    
+  
+    
     @IBOutlet weak var tableView: UITableView!
     
     private var sections = [Section]()
@@ -40,11 +45,10 @@ class RulesViewController: UIViewController, UITableViewDelegate, UITableViewDat
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = uiGlobal.createBackButtonItem(title: "rules".localized())
         tableView.delegate = self
         tableView.dataSource = self
-       // tableView.rowHeight = UITableView.automaticDimension
-       // tableView.estimatedRowHeight = 600
-    
+        textView.text = "rules_text".localized()
         
-        sections = [
+        sections =
+        [
             Section(title: "beat".localized(), options: ["first_rule_screen_paragraph".localized()]),
             Section(title: "ball_game".localized(), options: ["second_rule_screen_paragraph".localized()]),
             Section(title: "deflecting_or_stopping_a_moving_ball".localized(), options: ["third_rule_screen_paragraph".localized()]),

@@ -6,6 +6,7 @@
 "inventory" = "INVENTORY";
 "world_championships" = "WORLD CHAMPIONSHIPS";
 "famous_athletes" = "FAMOUS ATHLETES";
+"press_to_start" = "PRESS TO START";
 
 //Rules screen texts
 "beat" = "Beat";
