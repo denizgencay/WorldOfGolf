@@ -30,6 +30,7 @@
 		33F98F082881A207004EEB37 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F98F072881A207004EEB37 /* MainViewController.swift */; };
 		4E7D0F4F2886CD20001FAB3E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D0F4E2886CD20001FAB3E /* ImageCell.swift */; };
 		4E7D0F512886D283001FAB3E /* ExpandableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D0F502886D283001FAB3E /* ExpandableTableViewCell.swift */; };
+		4EA17E78288823240082690C /* ExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA17E77288823240082690C /* ExpandedTableViewCell.swift */; };
 		4EC906012882E0190073AACA /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC906002882E0190073AACA /* UIImage+.swift */; };
 		4EC906032882E2980073AACA /* UI+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC906022882E2980073AACA /* UI+.swift */; };
 		4EC906062882EC6D0073AACA /* InteractiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC906052882EC6D0073AACA /* InteractiveViewController.swift */; };
@@ -83,6 +84,7 @@
 		33F98F072881A207004EEB37 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4E7D0F4E2886CD20001FAB3E /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		4E7D0F502886D283001FAB3E /* ExpandableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewCell.swift; sourceTree = "<group>"; };
+		4EA17E77288823240082690C /* ExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedTableViewCell.swift; sourceTree = "<group>"; };
 		4EC906002882E0190073AACA /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		4EC906022882E2980073AACA /* UI+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+.swift"; sourceTree = "<group>"; };
 		4EC906052882EC6D0073AACA /* InteractiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveViewController.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			children = (
 				33F98F032881A1F0004EEB37 /* RulesViewController.swift */,
 				334C54FF2886DE9500C4160E /* ExpandableViewCell.swift */,
+				4EA17E77288823240082690C /* ExpandedTableViewCell.swift */,
 			);
 			path = Rules;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				33E58B37287F14EC007EEEE7 /* SceneDelegate.swift in Sources */,
 				4E7D0F512886D283001FAB3E /* ExpandableTableViewCell.swift in Sources */,
 				4EC906012882E0190073AACA /* UIImage+.swift in Sources */,
+				4EA17E78288823240082690C /* ExpandedTableViewCell.swift in Sources */,
 				33E58B6F287F281A007EEEE7 /* MenuSecondTableViewCell.swift in Sources */,
 				4E7D0F4F2886CD20001FAB3E /* ImageCell.swift in Sources */,
 				33F98EFD2881A19A004EEB37 /* AthletesViewController.swift in Sources */,

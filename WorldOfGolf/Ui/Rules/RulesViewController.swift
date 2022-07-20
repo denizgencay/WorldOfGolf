@@ -75,16 +75,26 @@ class RulesViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "expandableViewCell", for: indexPath)
-        cell.selectionStyle = .none
-        cell.textLabel?.numberOfLines = 0
-        cell.textLabel?.textColor = UIColor.white
-        if indexPath.row == 0{
-            cell.textLabel?.text = sections[indexPath.section].title
-        }else{
-            cell.textLabel?.text = sections[indexPath.section].options[indexPath.row - 1]
+        
+       
+        if indexPath.row == 0
+        {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "expandableViewCell", for: indexPath) as? ExpandableViewCell
+            cell!.selectionStyle = .none
+            cell?.textLabel?.numberOfLines = 0
+            cell?.textLabel?.textColor = UIColor.white
+            cell!.label.text = sections[indexPath.section].title
+            return cell!
+        }else
+        {
+            let cellFull = tableView.dequeueReusableCell(withIdentifier: "expandedCell", for: indexPath)
+            cellFull.textLabel?.text = sections[indexPath.section].options[indexPath.row - 1]
+            cellFull.selectionStyle = .none
+            cellFull.textLabel?.numberOfLines = 0
+            cellFull.textLabel?.textColor = UIColor.white
+            return cellFull
         }
-        return cell
+        
     }
     
     
